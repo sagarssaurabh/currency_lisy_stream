@@ -78,8 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'coin_data',
-
-    }
+        'CLIENT': {
+                        'host': '50.116.32.224'
+                    }
+        }
 }
 
 
